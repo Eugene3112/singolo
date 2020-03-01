@@ -124,6 +124,7 @@ body{
     background-image: url('assets/img/sprait.png');
     background-repeat: no-repeat;
     border-radius: 50%;
+    border: 1px solid #666d89;
     margin-right: 0.8rem;
 }
 .social__item:hover{
@@ -131,14 +132,14 @@ body{
     background-color: #c5c5c5;
 }
 .social__facebook{
-    background-position:  0px 0px;
+    background-position:  -1px -1px;
 }
 .social__gmail{
-    background-position:  -40px 0px;
+    background-position:  -41px -1px;
 }
 .social__twitter{
-    background-position:  -80px 0px;
+    background-position:  -81px -1px;
 }
 .social__in{
-    background-position:  -120px 0px;
+    background-position:  -121px -1px;
 }
