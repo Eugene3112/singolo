@@ -491,4 +491,7 @@ button{
     border: none;
     color: #c5c5c5;
 }
+button:hover{
+    background-color: #494e62;
+}
 
