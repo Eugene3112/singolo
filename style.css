@@ -431,13 +431,14 @@ body{
     text-decoration: none;
     color:#f0d8d9 ;
 }
-.contact-container__item i{
+.contact-container__item .icons{
     margin-right: 1rem;
     width: 1.2rem;
     text-align: center;
 }
 .contact-container__item{
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.2rem;
+    display: flex;
 }
 footer{
     height: 7.5rem;
@@ -498,4 +499,16 @@ button{
 button:hover{
     background-color: #494e62;
 }
-
+.icons{
+    width: 1.3rem;
+    height: 2rem;
+}
+.icons1{
+    background: url('assets/img/icons.png') no-repeat 1px 1px;
+}
+.icons2{
+        background: url('assets/img/icons.png') no-repeat 1px -20px;
+}
+.icons3{
+    background: url('assets/img/icons.png') no-repeat 1px -42px;
+}
