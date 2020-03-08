@@ -131,7 +131,6 @@
       margin: 0;
       padding-top: 59px;
       font-size: 30px;
-      letter-spacing: -0.2px;
       font-weight: 700;
       color: #666d89;
       padding-left: 10px;
@@ -139,11 +138,12 @@
   .description1 {
       margin-bottom: 43px;
       font-size:18px;
-      letter-spacing: -0.23px;
+      text-align: justify;
       line-height: 30px;
       color: #767e9e;
       padding-left: 10px;
       padding-top: 17px;
+      font-weight: 300;
   }
     
   .layout {
@@ -178,6 +178,10 @@
       width: 226px;
   
   }
+  .content1
+  {
+      width:229px;
+  }
     
   .name {
       margin: 0;
@@ -190,7 +194,8 @@
       margin: 8px 0 0;
       height: 66px;
       font-size: 12px;
-      letter-spacing: 0.562px;
+      text-align: justify;
+      word-spacing: 0.5px;
       line-height: 22px;
       overflow: hidden;
       color: #767e9e;
@@ -283,10 +288,9 @@ body{
 .about-us__subTitle{
     font-size: 1.8rem;
     margin-bottom: 4.5rem;
-    line-height: 2.9rem;
+    line-height: 2.8rem;
     font-weight: 300;
-    word-spacing: 0.11rem;
-
+    text-align: justify;
 }
 .peoples{
     display: flex;
@@ -313,6 +317,7 @@ body{
     line-height: 2rem;
     font-weight: 400;
     margin-bottom: 2.4rem;
+    text-align: justify;
 }
 .social{
     display: flex;
@@ -359,8 +364,8 @@ body{
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 3rem;
-    letter-spacing: 0.015rem;
     margin-bottom: 4.2rem;
+    text-align: justify;
 }
 .container-form{
     display: flex;
@@ -412,9 +417,8 @@ body{
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 2rem;
-    text-align: justify;
-    letter-spacing: -0.02rem;
     margin-bottom: 2.8rem;
+    text-align: justify;
 }
 .contact-container{
     display: flex;
