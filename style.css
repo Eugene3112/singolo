@@ -307,10 +307,14 @@ body{
     margin-bottom: 1.2rem;
 }
 .person__name{
+    max-width: 30rem;
     font-size: 1.8rem;
     font-weight: 900;
     letter-spacing: -0.02rem;
     margin-bottom: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .person__description{
     font-size: 1.2rem;
