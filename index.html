@@ -16,17 +16,17 @@
                     <h1>SINGOLO<span>*</span></h1>
                 </div>
                 <div class="navigation">
-                    <a href="">home</a>
-                    <a href="">services</a>
-                    <a href="">portfolio</a>
-                    <a href="">about</a>
-                    <a href="">contact</a>
+                    <a class="active" href="#home">home</a>
+                    <a href="#services">services</a>
+                    <a href="#portfolio">portfolio</a>
+                    <a href="#about">about</a>
+                    <a href="#contact">contact</a>
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <section class="slider">
+        <section class="slider" id="home">
             <div class="container-1">
                 <div class="slider-container">
                     <div class="arrow arrow-right">
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="services">
             <div class="container-1">
               <h2 class="title">Our Services</h2>
               <p class="description1">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
@@ -99,15 +99,15 @@
             </div>
           </section>
     </main>
-    <section class = "portfolio">
+    <section class = "portfolio" id="portfolio">
         <div class="container">
             <h1 class="portfolio__title">Portfolio</h1>
             <p class="portfolio__subTitle">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
             <nav class="portfolio__navigation navigation-image">
-                <a href="#" class="navigation-image__items">All</a>
-                <a href="#" class="navigation-image__items">Web Design</a>
-                <a href="#" class="navigation-image__items">Graphic Design</a>
-                <a href="#" class="navigation-image__items">Artwork</a>
+                <a  class="navigation-image__items">All</a>
+                <a  class="navigation-image__items">Web Design</a>
+                <a  class="navigation-image__items">Graphic Design</a>
+                <a  class="navigation-image__items">Artwork</a>
             </nav>
             <div class="portfolio__images images">
                 <img src="assets/img/img1.png" alt="image 1" class="images__items">
@@ -125,7 +125,7 @@
             </div>
         </div>
     </section>
-    <section class="about-us">
+    <section class="about-us" id="about">
         <div class="container">
             <h1 class="about-us__title">About Us</h1>
             <p class="about-us__subTitle">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
@@ -184,13 +184,13 @@
                     <textarea placeholder="Describe your project in detail..." class="form-item__items" disabled ></textarea>
                     <button >Submit</button>
                 </form>
-                <div class="contact">
+                <div class="contact" id="contact">
                     <h3 class="contact__title">Contact Information</h3>
                     <p class="contact__subtitle">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
                     <div class="contact-container">
-                        <a type="addres" href="#" class="contact-container__item"><div class="icons icons1"></div>Elm St. 14/05 Lost City </a>
-                        <a type="tel" href="tel:803528 331 86 35" class="contact-container__item"><div class="icons icons2"></div>03528 331 86 35 </a>
-                        <a type="mail" href="mailto:info@singolo.com" class="contact-container__item"><div class="icons icons3"></div>info@singolo.com </a>
+                        <a type="addres" href="#" class="contact-container__item"><i class="fa fa-map-marker" aria-hidden="true"></i>Elm St. 14/05 Lost City </a>
+                        <a type="tel" href="tel:803528 331 86 35" class="contact-container__item"><i class="fa fa-phone" aria-hidden="true"></i>03528 331 86 35 </a>
+                        <a type="mail" href="mailto:info@singolo.com" class="contact-container__item"><i class="fa fa-envelope" aria-hidden="true"></i>info@singolo.com </a>
                     </div>
                 </div>
             </div>
@@ -211,5 +211,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
